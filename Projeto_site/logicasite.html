@@ -1,0 +1,372 @@
+<!-- Gostaria de dizer que esse projeto, por enquanto, está incompleto, mas resolvi publicá-lo mesmo assim para mostrar
+do que sou capaz de fazer!! -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicione-nos no WhatsApp!</title>
+    <link rel="icon" href="logokibolo.png" type="image/x-icon">
+</head>
+<body>
+            <img src="logokibolo.png" class="logodobolo" id="firstphotocake" alt="logobolo" onclick="javascript:logobolo();">
+            <script>
+              function logobolo(){
+                window.location.href = 'Projetosite.html';
+              }
+            </script>
+    <style>
+      html{
+        background-image: linear-gradient(to right, #ffa500 35%, #ff7e05, #ff4800);
+      }
+      :hover.logodobolo{
+        transform: scale(1.1);
+        rotate: -5deg;
+        transition: transform 0.3s ease;
+      }
+      :active.logodobolo{
+        transform: scale (0.9);
+        transition: transform 0.3s ease;
+      }
+      .logodobolo{
+        cursor: pointer
+      }
+      .corpo{
+        position: absolute;
+        background-image: linear-gradient(to right, rgb(247, 247, 247), rgb(219, 219, 219));
+        width: 95%;
+        height: 415px;
+        top: 190px;
+        padding: none;
+        border-radius: 12px;
+        right: 2.5%;
+        font-family: Arial, Arial, Helvetica, sans-serif;
+        z-index: -1;
+      }
+      #firstphotocake{
+        position: absolute;
+        height: 130px;
+        width: 130px;
+        padding: 45px;
+        background-position: 100px;
+        top: -30px;
+        left: -20px;
+      }
+      #secondphotoqrcode{
+        position: absolute;
+        top: 380px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 250px;
+        width: 250px;
+      }
+
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .instrucoeseaviso{
+        position: absolute;
+        font-family: Arial, Arial, Helvetica, sans-serif;
+        color: black;
+        top: 220px;
+        left: 4.4%;
+        font-size: larger;
+      }
+      .botaovoltar{
+        position: absolute;
+        height: 40px;
+        width: 200px;
+        top: 512px;
+        background-image: linear-gradient(to right, #ff4800, #ff9b05);
+        font-family: Aria, Helvetica, sans-serif;
+        border-radius: 12px;
+        border: none;
+        color: white;
+        font-size: medium;
+        cursor: pointer;
+      }
+      :hover.botaovoltar{
+        background-image: linear-gradient(to right, #ff3300, #ff7e05);
+        color: rgb(238, 238, 238);
+      }
+      button:active.botaovoltar{
+       background-image: linear-gradient(to right, #ff2600, #ff6905);
+       color:rgb(236, 236, 236);
+      }
+      .bannerfotosite{
+        position: absolute;
+        top: 95px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 200px;
+        width: 400px;
+        cursor: pointer;
+        }
+        /* Responsividades */
+        @media screen and (max-width: 1100px){
+          #secondphotoqrcode{
+            position: absolute;
+            top:380px;
+            left: 50%;
+            transform: translate (-50%, -50%);
+            height: 250px;
+            width: 250px;
+          }
+          .instrucoeseaviso{
+              position: absolute;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: x-small;
+              color: black;
+              top: 220px;
+              left: 5%;
+              font-size: larger;
+              }
+            .botaovoltar{
+              position: absolute;
+              height: 40px;
+              width: 200px;
+              top: 515px;
+              background-image: linear-gradient(to right, #ff4800, #ff9b05);
+              font-family: Arial, Helvetica, sans-serif;
+              border-radius: 12px;
+              border: none;
+              color: white;
+              font-size: medium;
+            }
+        }
+        @media screen and (max-width: 934px){
+          #secondphotoqrcode{
+            position: absolute;
+            top: 380px;
+            left: 50%;
+            transform: translate (-50%, -50%);
+            height: 215px;
+            width: 215px;
+          }
+          .botaovoltar{
+            position: absolute;
+            height: 40px;
+            width: 190px;
+            top: 499px;
+            background-image: linear-gradient(to right, #ff4800, #ff9b05);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 12px;
+            border: none;
+            color: white;
+            font-size: medium;
+            cursor: pointer;
+           }
+           .instrucoeseaviso{
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-small;
+            color: black;
+            top: 250px;
+            left: 5%;
+            font-size: medium;
+           }
+        }
+        @media screen and (max-width: 777px){
+          .instrucoeseaviso{
+            position: absolute;
+            color: black;
+            top: 250px;
+            left: 5%;
+            font-size: 3.8mm;
+            word-break: keep-all;
+          }
+          .bannerfotosite{
+            position: absolute;
+            top: 95px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 180px;
+            width: 360px;
+          }
+          #firstphotocake{
+           position: absolute;
+            height: 110px;
+            width: 110px;
+            padding: 45px;
+            background-position: 100px;
+            top: -40px;
+            left: -40px;
+          }
+         #secondphotoqrcode{
+            position: absolute;
+            top: 360px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 180px;
+            width: 180px;
+          }
+          .botaovoltar{
+            position: absolute;
+            height: 50px;
+            width: 200px;
+            top: 210px;
+            background-image: linear-gradient(to right, #ff4800, #ff9b05);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 12px;
+            border: none;
+            color: white;
+            font-size: medium;
+            cursor: pointer;
+          }
+        }
+        @media screen and (max-width: 690px){
+          .instrucoeseaviso{
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            top: 650px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: large;
+            text-align: center;
+            word-wrap: break-word;
+          }
+          .bannerfotosite{
+            position: absolute;
+            top: 75px;
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            height: 120px;
+            width: 260px;
+          }
+          .corpo{
+            position: absolute;
+            height: 750px;
+          }
+        }
+        @media screen and (max-width: 456px){
+          .bannerfotosite{
+            display: none;
+            visibility: hidden;
+          }
+          .instrucoeseaviso{
+            position: absolute;
+            top: 690px;
+          }
+          #firstphotocake{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            padding: 45px;
+            background-position: 100px;
+            top: -40px;
+            left: -40px;
+          }
+        }
+        @media screen and (max-width: 332px){
+         .botaovoltar{
+            position: absolute;
+            height: auto;
+            width: 160px;
+            top: 145px;
+            background-image: linear-gradient(to right, #ff4800, #ff9b05);
+            font-family:Arial, Helvetica, sans-serif;
+            border-radius: 12px;
+            border: none;
+            color: white;
+            font-size: medium;
+            word-wrap: break-word;
+            cursor: pointer;
+          }
+           #secondphotoqrcode{
+            position: absolute;
+            top: 270px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 150px;
+            width: 150px;
+          }
+           .instrucoeseaviso{
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            top: 570px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: medium;
+            text-align: center;
+            word-wrap: break-word;
+          }
+        }
+        @media screen and (max-width: 254px){
+           #firstphotocake{
+                position: absolute;
+                height: 50px;
+                width: 50px;
+                padding: 45px;
+                background-position: 100px;
+                top: -40px;
+                left: -40px;
+              }
+              .botaovoltar{
+                position: absolute;
+                height: auto;
+                width: auto;
+                top: 90px;
+                background-image: linear-gradient(to right, #ff4800, #ff9b05);
+                font-family:Arial, Helvetica, sans-serif;
+                border-radius: 12px;
+                border: none;
+                color: white;
+                font-size: small;
+                word-wrap: break-word;
+              }
+              #secondphotoqrcode{
+                position: absolute;
+                top: 160px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 90px;
+                width: 90px;
+              }
+              .instrucoeseaviso{
+                position: absolute;
+                font-family:Arial, Helvetica, sans-serif;
+                color: black;
+                top: 410px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: small;
+                word-wrap: break-word;
+              }
+              .corpo{
+                position: absolute;
+                top: 80px;
+                height: 510px;
+          
+              }
+        }
+        
+        </style>
+    <script>
+        function voltar(){
+            window.location.href = 'Projetosite.html';
+        }
+    </script>
+    <button class="botaovoltar" onclick="javascript:voltar()">Voltar para a tela inicial</button>
+</body>
+    <img src="fotoqrcode.jpg" id="secondphotoqrcode" alt="qrcodeimage">
+    <div class="instrucoeseaviso">
+      <br>• Gostou das nossas opções?
+      <br>Então adicione-nos no whatsApp, 
+      <br>escaneando o QRCODE
+      <br>e faça seu pedido já!
+      <br><br>
+      <h3>Passos para escanear:</h3>
+      <p>1- Vá nas configurações do seu <br>whatsApp;</p>
+      <p>2- Clique no ícone do QRCODE;</p>
+      <p>3- Escaneie o QRCODE.</p>
+    </div>
+    <div class="corpo"></div>
+    <img src="Foto banner_site_welcome.png" class= "bannerfotosite" alt="fotobannerdosite">
+</html>
+

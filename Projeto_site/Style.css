@@ -1,0 +1,511 @@
+/*Gostaria de dizer que esse projeto, por enquanto, está incompleto, mas resolvi publicá-lo mesmo assim para mostrar
+do que sou capaz de fazer!!*/
+html{
+    background-image: linear-gradient( to right, #ffa500 35%, #ff7e05, #ff4800  );
+    
+}
+
+.bannerwebsite{
+    position: absolute;
+    left: 26%;
+    top: 0%;
+    cursor: pointer;
+  }
+
+.corpo{
+        position: absolute;
+        background-image: linear-gradient(to right, rgb(247, 247, 247), rgb(219, 219, 219));
+        width: 95%;
+        height: 500px;
+        top: 190px;
+        padding: 10px;
+        border-radius: 12px;
+        right: 5%;
+        left: 1.5%; 
+        font-family: Arial, Helvetica, sans-serif;  
+    }
+
+.imagembolo{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    padding: 45px;
+    background-position: 100px;
+    top: -30px;
+    left: -20px;
+    cursor: pointer;
+}
+#primeirafoto{
+    position: absolute;
+    border-radius: 10px;
+    top: 125px;
+    border-style: ridge;
+}
+#segundafoto{
+    position: absolute;
+    border-radius: 10px;
+    top: 240px;
+    border-style: ridge;
+}
+#terceirafoto{
+    position: absolute;
+    top: 355px;
+    left: 10px;
+    border-radius: 10px;
+    border-style: ridge;
+}
+
+.texto1{
+    position: absolute;
+    top: 120px;
+    margin-left: 4cm;
+    margin-inline-start: 4.5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+  }
+  .texto2{
+    position: absolute;
+    top: 230px;
+    margin-left: 4cm;
+    margin-inline-start: 4.5cm;
+    font-family: Arial, Helvetica, sans-serif;  
+  }
+  .texto3{
+    position: absolute;
+    top: 340px;
+    margin-left: 4cm;
+    margin-inline-start: 4.5cm;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.whatsapp{
+    position: absolute;
+    border: none;
+    background-color: #ff8800;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    cursor: pointer;
+    color: white;
+    top: 50px;
+    left: 75%;
+}
+:hover.whatsapp{
+    color: rgb(231, 231, 231);
+    background-color: #ee7504;
+}
+button:active.whatsapp{
+    background-color: #f58300;
+    color: rgb(230, 230, 230)
+}
+:hover.bolofoto{
+    transform: scale(1.1);
+    rotate: -2deg;
+    transition: transform 0.3s ease;
+}
+:active.bolofoto{
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+
+}
+:hover.bolomilho{
+    transform: scale(1.1);
+    rotate: -2deg;
+    transition: transform 0.3s ease;
+}
+:active.bolomilho{
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+
+}
+:hover.bolomole{
+    transform: scale(1.1);
+    rotate: -2deg;
+    transition: transform 0.3s ease;
+}
+:active.bolomole{
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+
+}
+:hover.imagembolo{
+    transform: scale(1.1);
+    rotate: -5deg;
+    transition: transform 0.3s ease;
+}
+:active.imagembolo{
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 747px){
+
+        .whatsapp{
+            position: absolute;
+            width: 120px;
+            z-index: 1;
+            top: 160px;
+            left: 40%;
+         }
+
+        .corpo{
+            position: absolute;
+            width: 85%;
+            top: 210px;
+            margin: auto;
+     }
+     .bannerwebsite{
+        position: absolute;
+        height: 140px;
+        width: 310px;
+        top: 4px;
+        left: 25%;
+     }
+     .imagembolo {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        left: -40px;
+        top: -42px;
+     }
+     #primeirafoto{
+        position: absolute;
+        border-radius:10px;
+        top: 130px;
+     }
+     .texto2{
+        position: absolute;
+        top: 240px;
+     }
+     .texto3{
+        position: absolute;
+        top: 355px;
+        
+     }
+   }
+
+   
+    @media screen and (max-width: 474px){
+    .corpo{
+        width: 80%;
+        padding: auto;
+    }
+    .bannerwebsite{
+        height: 135px;
+        width: auto;
+        left: 110px;
+    }
+    .imagembolo{
+        height: 80px;
+        width: 80px;
+        top: -35px;
+        left: -35px;
+    }
+    .whatsapp{
+        position: absolute;
+        right: 50%;
+        width: 95px;
+    }
+    .Nosavalie{
+        position: absolute;
+        left: 12%;
+    }
+    #segundafoto{
+        position: absolute;
+        top: 243px;
+        border-radius: 10px;
+        
+    }
+  
+    .texto1{
+        position: absolute;
+        top: 115px;
+        font-size: small;
+        left: 10px;
+        
+    }
+    .texto2{
+        position: absolute;
+        font-size: small;
+        top: 230px;
+        left: 10px;
+
+    }
+    .texto3{
+        position: absolute;
+        font-size: small;
+        left: 10px;
+        top: 343px;
+    }
+    h3{
+        font-size: medium;
+    }
+}   
+
+    @media screen and (max-width: 366px){
+            .texto1{
+                position: absolute;
+                top: 120px;
+            }
+            .texto3{
+                position: absolute;
+                top: 340px;
+            }
+        }
+
+        @media screen and (max-width: 350px){
+            .whatsapp{
+                font-size: medium;
+                left: 35%;
+            }
+            .bannerwebsite{
+                position: absolute;
+                height: 120px;
+                left: 28%;
+            }
+            .corpo{
+                width: 80%;
+                height: 1000%;
+            }
+
+        } 
+
+
+        @media screen and (max-width: 333px){
+            .texto1{
+                position: absolute;
+                top: 113px;
+            }
+            .texto2{
+                position: absolute;
+                top: 226px;
+            }
+            .texto3{
+                position: absolute;
+                top: 340px;
+            }
+            
+          }
+
+          @media screen and (max-width: 300px){
+            #primeirafoto{
+             position: absolute;
+             height: 70px;
+             width: 100px;
+             top: 65px;
+             border-radius: 10px;
+            }
+            #segundafoto{
+             position: absolute;
+             top: 120px;
+             height: 70px;
+             width: 100px;
+             top: 173px;
+             border-radius: 10px;
+            }
+            #terceirafoto{
+             position: absolute;
+             height: 70px;
+             width: 100px;
+             top: 275px;
+             border-radius: 10px;
+            }
+            .texto1{
+             position: absolute;
+             top: 60px;
+             left: -35px;
+             font-size: 11px;
+            }
+            .texto2{
+             position: absolute;
+             top: 165px;
+             left: -35px;
+             font-size: 11px;
+            }
+            .texto3{
+             position: absolute;
+             top: 272px;
+             left: -35px;
+             font-size: 11px;
+            }
+            h3{
+             font-size: 14px;
+            }
+           }
+
+           @media screen and (max-width: 298px){
+            .bolomole{
+                position: absolute;
+                top: 12px;
+            }
+            .bannerwebsite{
+                position: absolute;
+                height: 90px;
+                left: 35.5%;
+            }
+            
+            .imagembolo{
+                position: absolute;
+                height: 70px;
+                width: 70px;
+                top: -41px;
+                left: -46px;
+            }
+            .whatsapp{
+                position: absolute;
+                height: 30px;
+                width: 75px;
+                left: 36%;
+                font-size: small;
+                top: 130px;
+            }
+            .corpo{
+                position: absolute;
+                font-size: small;
+                top: 165px;
+                height: 100%; /*- Por enquanto, enquanto não há conteúdo */
+            }
+            #primeirafoto{
+                position: absolute;
+                top: 70px;
+            }
+            #segundafoto{
+                position: absolute;
+                top: 180px;
+            }
+            #terceirafoto{
+                position: absolute;
+                top: 285px;
+          }
+        }
+
+           @media screen and (max-width: 260px){
+            .bannerwebsite{
+                position: absolute;
+                left: 73px;
+                height: 80px;
+                width: 155px;
+            }
+            #primeirafoto{
+                position: asolute;
+                height: 60px;
+                width: 80px;
+                top: 65px;
+                border-radius: 10px;
+                
+            }
+            #segundafoto{
+                position: absolute;
+                height: 60px;
+                width: 80px;
+                top: 150px;
+                border-radius: 10px;
+
+            }
+            #terceirafoto{
+                position: absolute;
+                height: 60px;
+                width: 80px;
+                top: 235px;
+                border-radius: 10px;
+
+            }
+            .texto1{
+                position: absolute;
+                left: -63px;
+                top: 50px;
+            }
+            .texto2{
+                position: absolute;
+                top: 139px;
+                left: -63px;
+            }
+            .texto3{
+                position: absolute;
+                top: 223px;
+                left: -63px;
+            }
+          }
+
+        @media screen and (max-width: 240px){
+            .imagembolo{
+                position: absolute;
+                height: 50px;
+                width: 50px;
+                left: -45px;
+                top: -43px;
+            }
+            .bannerwebsite{
+                position: absolute;
+                height: 60px;
+                width: 120px;
+                top: 4px;
+                left: 58px;
+            }
+            .whatsapp{
+                position: absolute;
+                height: 16px;
+                width: 75px;
+                font-size: x-small;
+                left: 32%;
+                top: 100px;
+
+            }
+            .corpo{
+                position: absolute;
+                font-size: x-small;
+                top: 120px;
+                height: 100%; 
+                width: 75%;
+                left: 8px;
+            }
+            #terceirafoto{
+                position: absolute;
+                top: 240px;
+            }
+            .texto1{
+                position: absolute;
+                top: 45px
+            }
+            .texto2{
+                position: absolute;
+                top: 129px
+            }
+            .texto3{
+                position: absolute;
+                top: 220px;
+            }
+        } 
+
+        @media screen and (max-width: 181px){
+            .bannerwebsite{
+                position: absolute;
+                height: 45px;
+                width: 100px;
+                top: 9px;
+                left: 58px;
+
+            }
+          }
+
+            /* .container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+          }
+          
+          img {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s ease;
+          }
+          
+          .container:hover img {
+            transform: scale(1.1);
+          } */
+    
+
+   
